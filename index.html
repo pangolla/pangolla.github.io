@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Praveen Goud — Marketing Data Analyst. Dashboards, SQL, Python, Power BI, Tableau, and customer analytics.">
+  <title>Praveen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient background glow -->
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="header" id="top">
+    <nav class="header__inner container" aria-label="Main navigation">
+      <a href="#top" class="header__name">Praveen</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-btn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="header__nav">
+        <li><a href="#work">My Work</a></li>
+        <li><a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__atmosphere" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <h1 class="hero__title">
+            Hello,<br>
+            Praveen here! <span class="wave" aria-hidden="true">👋</span>
+          </h1>
+
+          <p class="hero__lead">
+            I’m a <span class="hero__emoji" aria-hidden="true">📊</span> Marketing Data Analyst with 3+ years of experience turning customer, marketing, and engagement data into actionable insights. Specializing in SQL, Python, Power BI, Tableau, and analytics across retail, CRM, and campaign performance.
+          </p>
+
+          <p class="hero__mid">
+            All things analytics: Dashboard Development · Marketing Analytics · Customer Insights · Reporting Automation.<br>
+            Yep, I do them all.
+          </p>
+
+          <p class="hero__close">
+            Let’s build dashboards and reports that are not just accurate but also clear. Insights that help teams understand customers, measure campaigns, and make better decisions.
+          </p>
+
+          <p class="hero__signoff">Always learning. Always building. <span aria-hidden="true">📈</span></p>
+
+          <div class="hero__social" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/angolla-praveengoud/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/pangolla" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:angollapraveen4@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="hero__photo reveal reveal--delay">
+          <div class="hero__photo-frame">
+            <img
+              src="assets/profile.jpg"
+              alt="Praveen Goud"
+              width="440"
+              height="520"
+              onerror="this.classList.add('is-missing')"
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__pills container reveal">
+        <a href="assets/resume.pdf" class="pill" target="_blank" rel="noopener noreferrer">Resume</a>
+        <a href="mailto:angollapraveen4@gmail.com" class="pill">angollapraveen4@gmail.com</a>
+      </div>
+    </section>
+
+    <!-- MY WORK -->
+    <section class="work" id="work">
+      <div class="container">
+
+        <article class="project reveal">
+          <a href="#" class="project__link-top">View campaign dashboard samples →</a>
+          <h2 class="project__title">Marketing Campaign Performance</h2>
+          <p class="project__desc">ROI, conversions, CAC, and channel performance across paid and owned marketing.</p>
+          <div class="project__visual" aria-hidden="true">
+            <div class="dash">
+              <div class="dash__top"><span></span><span></span><span></span></div>
+              <div class="dash__kpis">
+                <div><small>ROI</small><strong>3.2x</strong></div>
+                <div><small>CAC</small><strong>$48</strong></div>
+                <div><small>Conv.</small><strong>4.7%</strong></div>
+              </div>
+              <div class="dash__bars">
+                <span style="--h:55%"></span><span style="--h:80%"></span><span style="--h:42%"></span>
+                <span style="--h:90%"></span><span style="--h:65%"></span><span style="--h:48%"></span>
+                <span style="--h:78%"></span><span style="--h:60%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="project__tags">
+            <span>SQL</span><span>Python</span><span>Power BI</span><span>GA4</span>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <a href="#" class="project__link-top">View segmentation case study →</a>
+          <h2 class="project__title">Customer Segmentation</h2>
+          <p class="project__desc">High-value, loyal, new, at-risk, and churn-risk groups from behavior and transaction data.</p>
+          <div class="project__visual" aria-hidden="true">
+            <div class="dash dash--alt">
+              <div class="dash__top"><span></span><span></span><span></span></div>
+              <div class="dash__table">
+                <div class="dash__row dash__row--head"><span>Segment</span><span>Users</span><span>LTV</span></div>
+                <div class="dash__row"><span>Loyal</span><span>24.1k</span><span>$420</span></div>
+                <div class="dash__row"><span>New</span><span>18.6k</span><span>$86</span></div>
+                <div class="dash__row"><span>At-risk</span><span>9.2k</span><span>$210</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="project__tags">
+            <span>Python</span><span>Pandas</span><span>SQL</span><span>Tableau</span>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <a href="#" class="project__link-top">View funnel analytics →</a>
+          <h2 class="project__title">Website Funnel Analytics</h2>
+          <p class="project__desc">Traffic, events, conversion funnels, and drop-off points across the digital journey.</p>
+          <div class="project__visual" aria-hidden="true">
+            <div class="dash">
+              <div class="dash__top"><span></span><span></span><span></span></div>
+              <div class="dash__funnel">
+                <div style="--w:100%">Visit</div>
+                <div style="--w:72%">Product</div>
+                <div style="--w:48%">Cart</div>
+                <div style="--w:28%">Purchase</div>
+              </div>
+            </div>
+          </div>
+          <div class="project__tags">
+            <span>GA4</span><span>SQL</span><span>Python</span><span>Power BI</span>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <a href="#" class="project__link-top">View reporting pipeline →</a>
+          <h2 class="project__title">Automated KPI Reporting</h2>
+          <p class="project__desc">Automated workflows to clean data, calculate KPIs, and reduce manual reporting.</p>
+          <div class="project__visual" aria-hidden="true">
+            <div class="dash dash--accent">
+              <div class="dash__top"><span></span><span></span><span></span></div>
+              <div class="dash__flow">
+                <span>Extract</span><span>→</span><span>Transform</span><span>→</span><span>KPIs</span><span>→</span><span>Deliver</span>
+              </div>
+            </div>
+          </div>
+          <div class="project__tags">
+            <span>Python</span><span>Excel</span><span>Power BI</span><span>dbt</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact__inner reveal">
+        <h2 class="contact__title">Get in touch</h2>
+
+        <button type="button" class="contact__email" id="copy-email" data-email="angollapraveen4@gmail.com">
+          angollapraveen4@gmail.com
+        </button>
+        <p class="contact__toast" id="email-toast" role="status" aria-live="polite"></p>
+
+        <a href="assets/resume.pdf" class="contact__resume" target="_blank" rel="noopener noreferrer">Resume</a>
+
+        <div class="contact__social">
+          <a href="https://www.linkedin.com/in/angolla-praveengoud/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/pangolla" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Praveen</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
