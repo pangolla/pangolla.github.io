@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Enterprise Marketing Analytics Platform — Tableau dashboard showcase by Praveen Angolla.">
+  <title>Enterprise Marketing Analytics Dashboard | Praveen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="header on-light" id="top">
+    <nav class="header__inner container" aria-label="Main navigation">
+      <a href="index.html" class="header__name">Praveen</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-toggle-btn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="header__nav">
+        <li><a href="index.html#work">My Work</a></li>
+        <li><a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="dashboard-page">
+    <section class="dashboard-page__hero">
+      <div class="container dashboard-page__inner reveal">
+        <a href="index.html#work" class="dashboard-page__back">← Back to portfolio</a>
+        <h1 class="dashboard-page__title">Enterprise Marketing Analytics Platform</h1>
+        <p class="dashboard-page__subtitle">SQL, Python, Tableau, Excel Reporting, Customer Analytics</p>
+        <p class="dashboard-page__intro">Four Tableau dashboard pages built on real Olist Brazilian e-commerce data — executive KPIs, customer segmentation, product revenue performance, and delivery experience insights.</p>
+
+        <div class="dashboard-page__actions">
+          <a href="https://github.com/pangolla/enterprise-marketing-analytics-platform" class="project__btn project__btn--primary" target="_blank" rel="noopener noreferrer">View GitHub</a>
+          <a href="index.html#work" class="project__btn project__btn--secondary">Back to project card</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard-page__gallery">
+      <div class="container">
+        <article class="dashboard-page__panel reveal">
+          <h2>Executive Overview</h2>
+          <p>KPI scorecard, revenue trend, and top product categories for leadership reporting.</p>
+          <img src="assets/projects/enterprise-marketing-analytics/executive_overview.png" alt="Executive Overview Tableau dashboard" loading="lazy" width="1200" height="750">
+        </article>
+
+        <article class="dashboard-page__panel reveal">
+          <h2>Customer 360</h2>
+          <p>RFM segments, customer value, frequency, and recency for retention analysis.</p>
+          <img src="assets/projects/enterprise-marketing-analytics/customer_360.png" alt="Customer 360 Tableau dashboard" loading="lazy" width="1200" height="750">
+        </article>
+
+        <article class="dashboard-page__panel reveal">
+          <h2>Revenue &amp; Product Performance</h2>
+          <p>Category ranking, revenue by state, and Pareto-style concentration analysis.</p>
+          <img src="assets/projects/enterprise-marketing-analytics/revenue_product_performance.png" alt="Revenue and Product Performance Tableau dashboard" loading="lazy" width="1200" height="750">
+        </article>
+
+        <article class="dashboard-page__panel reveal">
+          <h2>Customer Experience &amp; Delivery</h2>
+          <p>Review score distribution, delivery performance, delay rate, and delay vs. review relationship.</p>
+          <img src="assets/projects/enterprise-marketing-analytics/customer_experience_delivery.png" alt="Customer Experience and Delivery Tableau dashboard" loading="lazy" width="1200" height="750">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Praveen</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
