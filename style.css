@@ -467,6 +467,14 @@ ul {
   color: var(--work-text);
 }
 
+.work__note {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #666;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.5rem;
+}
+
 .project {
   padding: clamp(2.5rem, 5vw, 4rem) 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -534,6 +542,15 @@ ul {
 /* Featured project card */
 .project--featured {
   padding-top: clamp(3rem, 6vw, 4.5rem);
+}
+
+.project--solo {
+  padding-bottom: clamp(3rem, 6vw, 4.5rem);
+  border-bottom: none;
+}
+
+.project--solo .project__preview {
+  max-width: 100%;
 }
 
 .project__badge {
